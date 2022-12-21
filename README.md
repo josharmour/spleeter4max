@@ -27,9 +27,9 @@ all instructions were tested with Max 8.1 / Ableton 10.1 and will not work for e
 
 > :white_check_mark: to test, run `echo %pathext%` in CMD.exe and make sure `.JS` is not there
 
-4. open CMD.exe and type `pip3 install spleeter==2.3` (hit enter)
+4. open CMD.exe and type `pip3 install spleeter==2.3.2` (hit enter)
 
-> :white_check_mark: to test, run `spleeter -h` in CMD.exe. it should show you usage instructions. if not, you may need to [set spleeter to run as administrator](https://github.com/diracdeltas/spleeter4max/issues/7) or try [the instructions in this thread](https://github.com/diracdeltas/spleeter4max/issues/8).
+> :white_check_mark: to test, run `spleeter --help` in CMD.exe. it should show you usage instructions. if not, you may need to [set spleeter to run as administrator](https://github.com/diracdeltas/spleeter4max/issues/7) or try [the instructions in this thread](https://github.com/diracdeltas/spleeter4max/issues/8).
 
 if you want to verify everything is installed on windows, download https://raw.githubusercontent.com/diracdeltas/spleeter4max/feature/native-spleeter/check-install.py to your home directory, open CMD.exe, and run `py check-install.py` or `python check-install.py`.
 
